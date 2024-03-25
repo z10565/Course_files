@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Chava';
+    src: url('Chava-Regular.eot');
+    src: local('Chava'), local('Chava-Regular'),
+        url('Chava-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Chava-Regular.woff2') format('woff2'),
+        url('Chava-Regular.woff') format('woff'),
+        url('Chava-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
