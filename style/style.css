@@ -311,7 +311,7 @@ h2 {
     gap: 0 30px;
 }
 
-.card {
+.feedback_card {
     padding: 50px 20px 38px;
     background-color: #F0F7FD;
     flex-basis: 33%;
@@ -321,11 +321,11 @@ h2 {
     justify-content: space-between;
 }
 
-.feedback_card img {
+.card img {
     margin-bottom: 12px;
 }
 
-.feedback_card p {
+.card p {
     font-size: 21px;
 }
 
