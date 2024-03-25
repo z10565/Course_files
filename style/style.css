@@ -3,32 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 #name {
     color: #222222;
 }
+
 h1 {
     font-family: 'Chava', sans-serif;
     font-size: calc(4.2vw + 26px);
     line-height: 110%;
     margin-bottom: 40px;
 }
+
 body {
     font-family: 'TT Hoves', sans-serif;
 }
+
 section {
     padding: 0 calc(10.6vw - 16px);
 }
+
 section.hello {
     background-image: url('./html_css_js\ 1.png');
     background-repeat: no-repeat;
     background-position: top calc(4.9vw + 59px) right calc(6.1vw - 20px);
     background-size: calc(23.9vw + 89px);
 }
+
 .logo {
     margin-top: 37px;
     width: 295px;
     height: calc(1.2vw + 25px);
 }
+
 .courseData {
     margin-top: calc(6.3vw + 4px);
     margin-bottom: calc(3.1vw + 36px);
@@ -38,20 +45,24 @@ section.hello {
     gap: 30px 100px;
     flex-wrap: wrap;
 }
+
 .courseData .value {
     font-weight: 700;
 }
+
 p {
     font-weight: 300px;
     font-size: calc(1vw + 14px);
     line-height: 140%;
 }
+
 .buttons {
     margin-top: 20px;
     display: flex;
     gap: 20px 30px;
     flex-wrap: wrap;
 }
+
 button.purple {
     width: 328px;
     height: 61px;
@@ -64,6 +75,7 @@ button.purple {
     line-height: 118%;
     border: 0;
 }
+
 button.white {
     width: 328px;
     height: 61px;
@@ -76,6 +88,7 @@ button.white {
     line-height: 118%;
     border: 1px solid #6E3ABA;
 }
+
 h2 {
     font-size: calc(2.7vw + 24px);
     margin-top: calc(11vw + 18px);
@@ -84,19 +97,23 @@ h2 {
     line-height: 117%;
     text-transform: uppercase;
 }
+
 .students {
     display: flex;
     flex-wrap: wrap;
     gap: calc(1.3vw + 35px) 70px;
 }
+
 .student {
     width: 450px;
     flex-basis: 450px;
     flex-grow: 1;
 }
+
 .student img {
     width: 210px;
 }
+
 .student h4 {
     font-size: calc(1vw + 14px);
     font-weight: 600;
@@ -105,14 +122,17 @@ h2 {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
 .student p {
     font-weight: 400;
 }
+
 .purpleBg {
     background-color: #6E3ABA;
     padding-top: calc(4.4vw + 23px);
     padding-bottom: calc(4.1vw + 5px);
 }
+
 #sell {
     color: #FFFFFF;
     font-size: calc(2vw + 26px);
@@ -120,6 +140,7 @@ h2 {
     text-align: center;
     text-transform: uppercase;
 }
+
 .timer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -129,132 +150,162 @@ h2 {
     margin-top: calc(4.1vw + 5px);
     margin-bottom: calc(4.1vw + 5px);
 }
+
 .num {
     font-family: Chava;
     font-size: calc(12.6vw + 13px);
     line-height: 107%;
 }
+
 .desc {
     font-size: calc(2vw + 3px);
     font-weight: 500;
     line-height: 117%;
     text-transform: uppercase;
 }
+
 .center {
     display: block;
     margin: 0 auto;
 }
+
 #name {
     font-weight: 700;
     font-size: calc(1.1vw + 34px);
     line-height: 121%;
     color: #222222;
 }
+
 .legendPhoto {
     margin-top: calc(5.5vw + 19px);
     width: calc(7.7vw + 300px);
     height: calc(10.8vw + 423px);
 }
+
 .teacher {
     display: flex;
     flex-direction: row;
     gap: calc(3.4vw + 7px);
 }
+
 .legendInfo {
     margin-top: calc(8.7vw - 13px);
     flex-wrap: wrap;
 }
+
 .teacherinfo {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: calc(1.1vw + 26px) calc(8.8vw - 23px);
     margin-top: calc(5.5vw + 19px);
 }
+
 .teacherinfo>div {
     width: 100%;
 }
+
 .end {
     display: grid;
     grid-template-areas: "img title"
         "img subtitle";
     column-gap: 19px;
 }
+
 .end_img {
     grid-area: img;
 }
+
 .diplom {
     width: calc(11.3vw + 286px);
     height: calc(7.8vw + 200px);
 }
+
 .title_diploma h2 {
     margin-bottom: 20px;
     margin-top: calc(1.1vw + 19px);
 }
+
 .title_diploma {
     grid-area: title;
 }
+
 .paragraph {
     grid-area: subtitle;
 }
+
 .pay,
 .response {
     margin-bottom: calc(2.2vw + 12px);
     margin-top: calc(1.1vw + 19px)
 }
+
 .wage {
     width: calc(81.4vw + 23px);
     height: calc(23.6vw + 7px);
     margin-top: calc(1.8vw + 13px);
 }
+
 .oportunities {
     display: flex;
     flex-direction: row;
     row-gap: 70px;
 }
+
 .offer {
     margin-top: calc(7.7vw - 9px);
 }
+
 .review {
     width: calc(19.1vw + 334px);
     height: calc(11.7vw + 204px);
     margin-top: calc(8.4vw - 46px);
 }
+
 .indent {
     margin-bottom: calc(0.6vw + 18px);
 }
+
 .courseProgram_wrapper {
     border: 1px solid black;
     position: relative;
     padding: calc(4.9vw + 2px) calc(1.3vw + 18px);
 }
+
 .courseProgram_wrapper ol {
     list-style: none;
 }
+
 .courseProgram_wrapper ol li {
     padding: 24px 0;
     font-size: calc(0.6vw + 14px);
     border-bottom: 1px solid #A1A1A1;
 }
+
 .courseProgram_wrapper img {
     width: 6vw;
     position: absolute;
     top: -3px;
     right: -3px;
 }
+
 .courseProgram_wrapper .purple {
     display: block;
     margin: 34px auto 0;
 }
+
 .courseProgram .purple.btnMob {
     display: none;
 }
+
 .courseProgram_wrapper h2 {
     margin-top: calc(4.4vw + 23px);
     margin-bottom: calc(1.8vw + 17px);
 }
+
 .feedback h2 {
     margin-bottom: calc(2.2vw + 12px);
 }
+
 .feedback_cards {
     display: flex;
     gap: 0 30px;
@@ -288,19 +339,42 @@ h2 {
 .aboutus {
     display: flex;
     flex-direction: row;
+    gap: 0 97px;
 }
+
 .cupimg {
     margin-bottom: calc(2.2vw + 12px);
 }
-.quantity {
+
+.quantity,
+.quantity1 {
     font-weight: 700;
     font-size: calc(2.7vw + 24px);
     line-height: 117%;
 }
+
+.quantity {
+    margin-bottom: 5px;
+}
+
+.quantity1 {
+    margin-top: calc(1.1vw + 26px);
+    margin-bottom: 8px;
+}
+
 .itparkresidents {
+    font-family: 'Point Header', sans-serif;
+    text-transform: uppercase;
     font-weight: 600;
     font-size: 27px;
     line-height: 140%;
+}
+
+.boast {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 140%;
+    font-family: 'caption', sans-serif;
 }
 
 
@@ -341,9 +415,26 @@ h2 {
     .oportunities {
         flex-direction: column;
     }
+
     .aboutus {
         display: flex;
         flex-direction: column;
+    }
+
+    .itparkresidents {
+        font-size: 22px;
+        font-weight: 500;
+        margin-bottom: 40px;
+    }
+
+    .quantity,
+    .quantity1 {
+        margin-bottom: 0;
+    }
+
+    .itparkresidents {
+        font-family: 'TT Hoves', sans-serif;
+        text-transform: none;
     }
 }
 
