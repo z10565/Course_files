@@ -25,3 +25,15 @@ function twoDigitsNum(a) {
     }
 }
 
+let whiteBtn = document.getElementsByClassName("white")[0];
+let PopUpWrapper = document.querySelector(".popForm");
+let closeBtn = document.querySelector(".close");
+
+whiteBtn.addEventListener("click", popForm);
+closeBtn.addEventListener("click", closepopUp)
+function popForm(){
+    PopUpWrapper.style.display="flex";
+}
+function closepopUp(){
+    PopUpWrapper.style.display="none";
+}
