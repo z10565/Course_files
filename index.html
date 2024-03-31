@@ -7,11 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Курс программирования в Ташкенте. Языки HTML, CSS, JavaScript, TypeScript и фреймворк ReactJS с самым крутым и скромным преподавателем.">
-    <meta name="keywords" content="Программирование, Ташкент, HTML, CSS, JavaScript, TypeScript, ReactJS, Веб-разработка, Фронтенд-разработка, Учебный план, Преподаватель, Обучение, Навыки, Образование, Возможность обучения, Курс по программированию, Мастер-класс, Практические навыки, Карьерное развитие">
+    <meta name="keywords"
+        content="Программирование, Ташкент, HTML, CSS, JavaScript, TypeScript, ReactJS, Веб-разработка, Фронтенд-разработка, Учебный план, Преподаватель, Обучение, Навыки, Образование, Возможность обучения, Курс по программированию, Мастер-класс, Практические навыки, Карьерное развитие">
 
     <meta property="og:title" content="Курс программирования в Ташкенте">
-    <meta property="og:description" content="Курс программирования в Ташкенте. Языки HTML, CSS, JavaScript, TypeScript и фреймворк ReactJS с самым крутым и скромным преподавателем.">
-    <meta property="og:image" content="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/266337788/original/bf03a1b1fece64d640cb9642ae62ed85f5df1c37/be-your-front-end-web-developer-html5-css3-bootstrap-react.jpg">
+    <meta property="og:description"
+        content="Курс программирования в Ташкенте. Языки HTML, CSS, JavaScript, TypeScript и фреймворк ReactJS с самым крутым и скромным преподавателем.">
+    <meta property="og:image"
+        content="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/266337788/original/bf03a1b1fece64d640cb9642ae62ed85f5df1c37/be-your-front-end-web-developer-html5-css3-bootstrap-react.jpg">
     <meta property="og:url" content="https:maksimovich.uz">
     <meta property="og:type" content="website">
     <link rel="icon" type="image/png" href="./style/laptop_1f4bb.png">
@@ -21,6 +24,21 @@
     <link rel="stylesheet" href="./style/TTHoves/stylesheet.css">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/splide-4.1.3/dist/css/splide.min.css">
+
+    <style>
+        .splide {
+            display: none;
+        }
+
+        @media (max-width: 375px) {
+            .feedback_cards {
+                display: none;
+            }
+            .splide {
+                display: block;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -255,7 +273,6 @@
         </div>
     </section>
 
-
     <section class="feedback">
         <h2 class="">Отзывы наших студентов</h2>
         <div class="feedback_cards">
@@ -280,7 +297,7 @@
                         за хорошую учебу, меня пригласили на стажировку в Техникум. Будущее за IT и я не жалею что
                         выбрал эту сферу!</p>
                 </div>
-                <div  class="feedback_card_bottom">
+                <div class="feedback_card_bottom">
                     <img src="./style/secondman.png" alt="">
                     <div>
                         <div>Юлдашев</div>
@@ -295,7 +312,7 @@
                         заинтересовало, после лекции я понял, что это хороший старт для карьеры. После курса я планирую
                         дальше развиваться и двигаться вперед в этой сфере.</p>
                 </div>
-                <div  class="feedback_card_bottom">
+                <div class="feedback_card_bottom">
                     <img src="./style/thirdman.png" alt="">
                     <div>
                         <div>Махмудов</div>
@@ -305,6 +322,79 @@
             </div>
         </div>
     </section>
+
+    <section class="splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">
+                    <div class="feedback_card">
+                        <div class="card">
+                            <img src="./style/youtube.svg" alt="">
+                            <p>Я пришел в Техникум чтобы сменить профессию на front-end разработчика и окончательно
+                                расстаться с
+                                предыдущим местом работы. Пробуйте себя во всем, ничего не бойтесь и у вас всё
+                                получится! </p>
+                        </div>
+                        <div class="feedback_card_bottom">
+                            <img src="./style/firstman.png" alt="">
+                            <div>
+                                <div>Руслан</div>
+                                <div>Мухутдинов</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="splide__slide">
+                    <div class="feedback_card">
+                        <div class="card">
+                            <img src="./style/youtube.svg" alt="">
+                            <p>Я выбрал курс веб-верстальщика, потому что мне это нравится и это круто. После окончания
+                                курса,
+                                за хорошую учебу, меня пригласили на стажировку в Техникум. Будущее за IT и я не жалею
+                                что
+                                выбрал эту сферу!</p>
+                        </div>
+                        <div class="feedback_card_bottom">
+                            <img src="./style/secondman.png" alt="">
+                            <div>
+                                <div>Юлдашев</div>
+                                <div>Искандер</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="splide__slide">
+                    <div class="feedback_card">
+                        <div class="card">
+                            <img src="./style/youtube.svg" alt="">
+                            <p>Я увидел что Техникум всех приглашает на бесплатную лекцию по программированию. Меня это
+                                заинтересовало, после лекции я понял, что это хороший старт для карьеры. После курса я
+                                планирую
+                                дальше развиваться и двигаться вперед в этой сфере.</p>
+                        </div>
+                        <div class="feedback_card_bottom">
+                            <img src="./style/thirdman.png" alt="">
+                            <div>
+                                <div>Махмудов</div>
+                                <div>Джахонгир </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="./style/splide-4.1.3/dist/js/splide.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var splide = new Splide('.splide', {
+                type: 'loop',
+                perPage: 1,
+                pagination: false,
+            }).mount();
+        });
+    </script>
 
     <section>
         <h2>Немного о нас</h2>
