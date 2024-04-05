@@ -1,5 +1,5 @@
 let now = new Date();
-let finish = date = new Date(2024, 2, 31, 18, 0, 0, 0);
+let finish = date = new Date(2024, 11, 31, 18, 0, 0, 0);
 let delta = Math.trunc((finish - now) / 1000);
 
 

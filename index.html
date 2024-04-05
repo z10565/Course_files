@@ -34,6 +34,7 @@
             .feedback_cards {
                 display: none;
             }
+
             .splide {
                 display: block;
             }
@@ -323,7 +324,7 @@
         </div>
     </section>
 
-    <section class="splide" aria-label="Splide Basic HTML Example">
+    <section class="splide slider1" aria-label="Splide Basic HTML Example">
         <div class="splide__track">
             <ul class="splide__list">
                 <li class="splide__slide">
@@ -385,16 +386,125 @@
         </div>
     </section>
 
+
+    <section class="pic_of_students">
+        <h2>Все еще сомневаешься? </h2>
+        <p>Тогда последний козырь: после каждого выпуска мы устраиваем крутые вечеринки в честь вручения дипломов!</p>
+        <section class="splide slider2" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+                <div class="splide__list">
+                    <ul>
+                        <li class="splide__slide">
+                            <img src="./style/slider_image_01.png" alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./style/slider_image_02.png" alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./style/slider_image_03.png" alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./style/slider_image_04.png" alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./style/slider_image_05.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <div class="footer_left">
+            <h2>запишись на курс прямо сейчас!</h2>
+            <div class="footer_text">
+                <img src="./style/keywbord.svg" alt="">
+                <p>HTML, CSS, JS</p>
+            </div>
+            <div class="footer_text">
+                <img src="./style/icon_game_bot.svg" alt="">
+                <p>Разработка онлайн игр</p>
+            </div>
+            <div class="footer_text">
+                <img src="./style/icon_database.svg" alt="">
+                <p>Введение в Bootstrap и Github</p>
+            </div>
+        </div>
+        <div class="footer_right">
+            <div class="formBg">
+                <div class="sale">10%</div>
+                <h3>оставь заявку</h3>
+                <p>начало обучения: 1 декабря</p>
+                <form action="#">
+                    <input type="text" placeholder="Имя">
+                    <input type="text" placeholder="Фамилия">
+                    <input type="tel" placeholder="+998">
+                    <button class="purple" type="submit">Записаться на курс</button>
+                </form>
+                <div class="contactinfo">
+                    <div>Остались вопросы?</div>
+                        <p>Звони: +998 33 135 33 55</p>
+                        <p class="work_hours">Наши консультанты доступны каждый день с 10:00 до 22:00.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <script src="./style/splide-4.1.3/dist/js/splide.min.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            var splide = new Splide('.splide', {
+            var splide1 = new Splide('.slider1', {
                 type: 'loop',
                 perPage: 1,
                 pagination: false,
             }).mount();
+
+            var splide2 = new Splide('.slider2', {
+                autoplay: true,
+                interval: 2000,
+                perPage: 2,
+                padding: { right: 110 },
+                gap: 30,
+                arrows: false,
+                rewind: true,
+                breakpoints: {
+                    780: {
+                        perPage: 1,
+                    }
+                }
+            });
+            splide2.mount();
         });
     </script>
+
+    <!-- <script src="./style/splide-4.1.3/dist/js/splide.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var splide = new Splide('.splide1', {
+                type: 'loop',
+                perPage: 1,
+                pagination: false,
+            }).mount();
+            splide1.mount();
+    
+            var splide2 = new Splide('.slider2', {
+                autoplay: true,
+                interval: 2000,
+                perPage: 2,
+                padding: { right: 110 },
+                gap: 30,
+                arrows: false,
+                rewind: true,
+                breakpoints: {
+                    780: {
+                        perPage: 1,
+                    }
+                }
+            });
+            splide2.mount();
+        });
+    </script> -->
 
     <section>
         <h2>Немного о нас</h2>

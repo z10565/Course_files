@@ -19,7 +19,8 @@ body {
     font-family: 'TT Hoves', sans-serif;
 }
 
-section {
+section,
+.footer {
     padding: 0 calc(10.6vw - 16px);
 }
 
@@ -102,22 +103,27 @@ button.white {
     display: none;
     animation: popUpAnime 1s;
 }
+
 .popForm form {
     padding: 20px 60px;
     background-color: #fff;
 }
+
 .popForm input {
     display: block;
     margin-top: 10px;
 }
+
 .popForm label {
     display: block;
     margin-bottom: 20px;
 }
+
 .close {
     text-align: right;
     cursor: pointer;
 }
+
 .send {
     padding: 5px 10px;
     border-radius: 4px;
@@ -126,6 +132,7 @@ button.white {
     color: #f0f7fd;
     border: 2px solid #6E3ABA;
 }
+
 h2 {
     font-size: calc(2.7vw + 24px);
     margin-top: calc(11vw + 18px);
@@ -414,6 +421,132 @@ h2 {
     font-family: 'caption', sans-serif;
 }
 
+.pic_of_students p {
+    margin-top: calc(-0.7vw + 22px);
+}
+
+.pic_of_students h2 {
+    margin-bottom: 0;
+}
+
+.sale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6E3ABA;
+    color: #FFFFFF;
+    border-radius: 50%;
+    width: calc(6vw + 83px);
+    height: calc(6vw + 83px);
+    font-size: calc(2.5vw + 30px);
+    font-weight: 700;
+    line-height: 118%;
+    position: absolute;
+    top: -10%;
+    left: -15%;
+}
+
+footer {
+    background-color: #222222;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 58px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer_left {
+    width: 50%;
+}
+
+.footer_left h2 {
+    margin-top: 0;
+    font-size: calc(2.7vw + 24px);
+    color: #FFFFFF;
+    max-width: calc(10.5vw + 290px);
+    margin-bottom: calc(4.3vw + 24px);
+}
+
+.footer_text {
+    display: flex;
+    gap: 0 24px;
+    margin-bottom: 24px;
+}
+
+.footer_text p {
+    color: #FFFFFF;
+}
+
+.footer_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formBg {
+    background-color: #FFFFFF;
+    padding: 60px 61px 50px;
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+}
+
+.formBg button {
+    width: calc(6.7vw + 242px);
+}
+
+.formBg h3 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: calc(0.4vw + 24px);
+}
+
+.formBg p {
+    margin-bottom: 30px;
+    font-size: calc(0.6vw + 14px);
+}
+
+.formBg form {
+    display: flex;
+    flex-direction: column;
+    max-width: 338px;
+    margin: 0 auto;
+    gap: 23px;
+}
+
+.formBg input {
+    border: none;
+    border-bottom: 1px solid #A1A1A16B;
+}
+
+.contactinfo div {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.2px;
+    margin-bottom: 10px;
+}
+
+.contactinfo p {
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 21.2px;
+    color: #222222;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.work_hours {
+    max-width: 353px;
+}
+
+.splide_slide img {
+    width: 100%;
+}
+
+
 
 @media only screen and (min-width: 769px) {
     .teacherinfo {
@@ -471,6 +604,26 @@ h2 {
         font-family: 'TT Hoves', sans-serif;
         text-transform: none;
     }
+
+    .formBg {
+        padding: 60px 30px;
+        width: 327px;
+        height: 529px;
+        margin-top: 90px;
+
+    }
+
+    .sale {
+        position: absolute;
+        top: -53px;
+        left: 236px;
+    }
+
+    .footer_left {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
 }
 
 @media (max-width: 545px) {
@@ -488,6 +641,7 @@ h2 {
     0% {
         transform: scale(0);
     }
+
     100% {
         transform: scale(1);
     }
